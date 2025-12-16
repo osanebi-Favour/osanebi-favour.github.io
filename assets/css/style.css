@@ -458,10 +458,25 @@ footer p {
     }
 }
 
+/* --- About Section Layout --- */
+.about-content {
+    display: flex;
+    flex-direction: column;   /* stack image and text */
+    align-items: center;
+    text-align: center;
+}
+
+/* --- Profile Picture --- */
 .Profile Picture {
-    width: 180px;
-    height: 180px;
+    width: 140px;   /* reduced size */
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 25px; /* space between image and text */
+}
+
+/* --- About Text --- */
+.about-text {
+    max-width: 700px;
 }
 
