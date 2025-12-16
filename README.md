@@ -1,4 +1,4 @@
-# Osanebi Favour - Data Analysis Portfolio
+ # Osanebi Favour - Data Analysis Portfolio
 
 Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
 
@@ -16,6 +16,28 @@ This template is set up to showcase your best work. You can easily customize the
 
 ### Project Title One
 *A brief description of your project, the tools used, and the key insights derived.*
+## 📊 Financial Performance Dashboard (Actual vs Budget)
+
+This Power BI dashboard provides an executive-level view of financial performance by comparing **actual income and expenses against budgeted targets**. It is designed to answer three critical business questions:
+
+- Are we earning as planned?
+- Are we spending within budget?
+- Where are the variances coming from?
+
+### 🔍 Project Overview
+The dashboard analyzes income and expense performance across multiple years and projects. Clear visual indicators highlight periods of strong performance and areas requiring attention, enabling stakeholders to quickly assess financial health and take informed action.
+
+### 💡 Key Insights
+- **Income Performance:** Identifies periods where actual income exceeded or fell short of budgeted targets.
+- **Expense Control:** Highlights overspending and underspending to evaluate cost management efficiency.
+- **Variance Analysis:** Uses conditional formatting to clearly distinguish favorable and unfavorable performance.
+- **Dynamic Filtering:** Interactive slicers for Year, Month, and Project ID ensure transparent and contextual analysis.
+
+### 🛠️ Tool Used
+- **Power BI**
+
+### ✅ Outcome
+This dashboard transforms complex financial data into clear, executive-ready insights, supporting performance monitoring, accountability, and strategic planning.
 
 ### Project Title Two
 *A brief description of your project, the tools used, and the key insights derived.*
