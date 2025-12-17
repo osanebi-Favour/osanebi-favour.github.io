@@ -60,6 +60,4 @@ The dashboard converts complex datasets into a compelling visual narrative, enab
 
 ---
 
-## 📷 Dashboard Preview
-*(Optional: Add screenshots of your dashboard here)*
 
