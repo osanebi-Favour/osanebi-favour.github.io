@@ -1,1 +1,48 @@
+📊 Project Overview
+The Video Game Sales Dashboard is designed to help stakeholders identify market trends, high-performing publishers, and the lifecycle of various gaming genres. By leveraging Tableau's parameter features, users can toggle between different sales regions and timeframes to gain granular insights.
 
+Key Metrics Tracked
+Total Sales: Analyzed by Genre, Publisher, and Platform.
+
+Global Reach: Data encompassing 11,493 unique titles across 31 platforms.
+
+Market Share: Insights into the "Big Three" publishers (Nintendo, EA, Activision).
+
+⚙️ Data Engineering Process
+1. Data Cleaning (Excel Power Query)
+Before visualization, the raw dataset underwent rigorous ETL (Extract, Transform, Load) processes to ensure data integrity:
+
+Handling Nulls: Missing sales data or release years were either imputed or removed to prevent skewed averages.
+
+Data Typing: Ensured that dates were formatted correctly and sales figures were set as decimal numbers.
+
+Text Standardization: Cleaned "Publisher" and "Platform" names to remove duplicates caused by spelling variations or trailing spaces.
+
+Filtering: Removed outliers or incomplete records from the year 2020+ to maintain the accuracy of historical trends.
+
+2. Tableau Development & Parameters
+To make the dashboard dynamic, Parameters were implemented to give the end-user control over the view:
+
+Zone Sales Parameter: Allows the user to toggle the entire dashboard between EU Sales, NA Sales, or Global Sales.
+
+Date Range Parameters: A "Start Date" and "End Date" slider/input system to focus on specific console generations (e.g., the 2000s boom).
+
+📈 Visualization Breakdown
+1. Total Sales by Genre (Bar Chart)
+A descending bar chart identifying Action as the dominant market leader ($516.5M), followed by Sports and Shooters. This helps in understanding which genres have the highest commercial viability.
+
+2. Sales by Year and Genre (Stacked Area Chart)
+This visualization tracks the "ebb and flow" of the industry. It clearly shows the massive peak around 2008-2010, correlating with the height of the Wii and Seventh-Generation consoles (PS3/Xbox 360).
+
+3. Top 10 Publishers (Tree Map)
+A hierarchical view showing market dominance. Nintendo and Electronic Arts occupy the largest surface area, representing their massive footprint in the industry compared to smaller publishers like Sega or THQ.
+
+4. Top 10 Platforms (Packed Bubble Chart)
+A visual comparison of hardware success. The size of the bubbles for PS3, X360, and Wii highlights the intense competition of that era, with the PS3 leading in this specific filtered view at 340.5 units.
+
+💡 Key Insights
+The Peak Era: The industry saw its most significant growth between 2005 and 2012.
+
+Genre Concentration: Action, Sports, and Shooters make up more than 50% of the total revenue.
+
+Title Power: Wii Sports remains a significant outlier in sales, nearly tripling the sales of other top-tier titles like GTA V in specific segments.
