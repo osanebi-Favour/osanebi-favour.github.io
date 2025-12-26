@@ -1,1 +1,60 @@
+Sales & Profit Dashboard – Project Overview
+🔍 Project Description
+
+This project focuses on transforming raw, messy sales data into meaningful business insights through data cleaning, analysis, and visualization. The goal was to answer key business questions around sales performance, profitability, customer behavior, and regional trends using an interactive dashboard.
+
+🛠️ Workflow & Methodology
+
+Data Cleaning & Preparation
+
+Cleaned and structured raw datasets
+
+Handled missing values, inconsistencies, and incorrect data types
+
+Derived clear meanings and definitions for each column to ensure analytical accuracy
+
+Data Analysis
+
+Created Pivot Tables to explore relationships and trends within the data
+
+Analyzed:
+Total sales and profit
+
+Profit trends by year and category
+
+Sales performance by product category
+
+Top customers by revenue
+
+Monthly sales trends
+
+Customer count by year
+
+Sales distribution across states
+
+Data Visualization
+
+Designed an interactive Sales & Profit Dashboard Used charts and KPIs to present insights clearly and intuitively
+
+Included slicers for Category, Year, and Month to allow dynamic exploration
+
+📈 Key Insights
+
+Identified top-performing product categories and customers
+
+Highlighted yearly profit growth trends
+
+Revealed seasonal sales patterns by month
+
+Showed regional sales performance across states
+
+Enabled quick comparison of sales and profit metrics at a glance
+
+🧰 Tools Used
+
+Microsoft Excel (Data cleaning, Pivot Tables, analysis, Dashboard design and Visualization)
+
+🎯 Outcome
+
+The final dashboard provides stakeholders with a clear, interactive view of sales and profitability, enabling data-driven decision-making and performance tracking.
 
