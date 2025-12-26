@@ -1,1 +1,53 @@
+☕ Coffee Sales Analysis Dashboard
 
+📌 Project Overview
+This project focuses on analyzing coffee sales performance to identify key trends, seasonal impacts, and product preferences. Using Excel for data preparation and Tableau for advanced visualization, this dashboard provides actionable insights into revenue streams, daily sales velocity, and product popularity.
+
+🛠️ Data Pipeline
+1. Data Cleaning & Preparation (Excel)
+Before importing into Tableau, the raw data underwent a rigorous cleaning process in Excel to ensure accuracy and consistency:
+
+Standardization: Cleaned product names (e.g., ensuring "Americano with Milk" was consistent across all entries).
+
+Feature Engineering: Created a Season column based on transaction dates to categorize sales into "Dry" and "Rainy" seasons.
+
+Handling Nulls: Identified and handled missing values in the quantity and revenue columns.
+
+Data Formatting: Converted date strings into proper Date objects and ensured revenue figures were formatted as currency for calculation.
+
+2. Column Insights (Data Dictionary)
+The dataset includes several key dimensions and measures:
+
+Transaction Date: Used to derive Daily, Monthly, and Quarterly trends.
+
+Coffee Type: Categorical data identifying the product (Americano, Latte, etc.).
+
+Quantity: The volume of items sold per transaction.
+
+Revenue: The total monetary value generated (Price × Quantity).
+
+Season: A derived attribute used to observe weather-related purchasing habits.
+
+📊 Key Insights & Visualizations
+
+📈 Sales Velocity & Trends
+Daily Trend: Sales peak significantly on Tuesday (111K), followed by a steady decline throughout the midweek, stabilizing toward the weekend.
+
+Monthly Trend: There is a notable downward trajectory from September (138K) toward the end of the year, suggesting a strong late-summer/early-autumn demand.
+
+Quarterly Performance: The "Quarterly Trend" chart reveals a sharp dip in specific product categories (like Espresso and Hot Chocolate) compared to high-volume movers like Americano and Latte.
+
+🏆 Product Performance
+Top Sellers: Americano is the clear market leader with 134K in revenue, followed by Americano with Milk (112K) and Cappuccino (103K).
+
+The "Cortado" Gap: While Cortado remains in the Top 5, it sits at 73K, significantly lower than the top three, indicating a potential area for targeted promotions.
+
+🌦️ Seasonal Impact
+Revenue by Season: The pie chart illustrates a dominant season (indicated by the 404,303 figure) compared to the secondary season (189,527). This suggests coffee consumption is nearly 2x higher in one season over the other, likely driven by temperature changes.
+
+🚀 Technical Highlights
+KPI Scorecards: Summary metrics for Total Revenue (3M), Average Revenue (882), and Total Quantity (108K).
+
+Dynamic Filtering: The dashboard includes a Coffee Type Selector and Quarterly Trend filters to allow users to drill down into specific data segments.
+
+Color Correlation: Used a consistent warm-toned palette (yellow to deep brown) to reflect the coffee theme while maintaining data readability.
