@@ -1,1 +1,86 @@
-📊 Global Executive Sales PerformanceThis project provides a comprehensive data architecture and visualization suite for tracking global sales performance across various dimensions including geography, product lines, and market segments. The dashboard is designed to provide executive-level insights into year-over-year (YoY) growth and operational efficiency.🚀 Key Performance Indicators (KPIs)The current fiscal period shows explosive growth across all core financial metrics.Total Sales: $119.8M (▲ 251% YoY)Total Profit: $17.1M (▲ 237% YoY)Cost of Goods Sold (COGS): $102.7M (▲ 253% YoY)Total Quantity Sold: 1M Units (▲ 227% YoY)📈 Sales Trends & Market SegmentsTemporal PerformancePeak Sales Month: October achieved the highest performance with $21,818,149 in sales.Seasonality: Following a stable mid-year, sales show a significant upward trajectory starting in September.Segment & StrategyTop Segment: The Government sector is the primary driver of revenue, contributing $52,567,836.Discount Strategy: "Medium" discount bands are the most effective, accounting for 32% of total sales.📦 Product & Geographic DistributionTop Performing ProductsThe product portfolio is led by Paseo, which significantly outperforms other offerings in the lineup.ProductSales RevenuePaseo$33,047,484 (Top Seller)VTT$21.1MVelo$18.5MAmarilla$17.7MGeographic ReachThe project tracks performance across five key international markets.Leading Country: Canada leads global sales with $25,524,295.Other Key Markets: France ($25M), USA ($25M), Germany ($24M), and Mexico ($21M).🛠 Data ArchitectureThis repository contains the logic for:ETL Pipelines: Processing raw sales data into clean, YoY-comparable formats.Visualization Logic: Calculations for discount band distributions and monthly trend smoothing.Metric Framework: Standardized definitions for COGS and Profit margin tracking.
+📊 Global Executive Sales Performance Dashboard
+📌 Project Overview
+
+This repository contains the data architecture and visualization logic behind the Executive Sales Dashboard, built to deliver high-level insights into global sales performance, operational efficiency, and explosive year-over-year (YoY) growth across multiple business dimensions.
+
+The project enables stakeholders to quickly assess business health, identify growth drivers, and make data-driven strategic decisions.
+
+🚀 Key Performance Indicators (KPIs)
+
+The current fiscal period demonstrates exceptional YoY growth across all primary financial metrics:
+
+Total Sales: $119.8M (▲ 251% YoY)
+
+Total Profit: $17.1M (▲ 237% YoY)
+
+Cost of Goods Sold (COGS): $102.7M (▲ 253% YoY)
+
+Total Quantity Sold: 1M units (▲ 227% YoY)
+
+📈 Sales Trends & Market Performance
+⏱ Temporal Performance
+
+Peak Sales Month: October recorded the highest sales at $21,818,149
+
+Seasonality Pattern: Sales remain stable through mid-year, followed by a strong upward trend beginning in September
+
+🧩 Segment & Strategy Insights
+
+Top Segment: The Government sector is the primary revenue driver, generating $52,567,836
+
+Discount Strategy: The Medium discount band proves most effective, accounting for 32% of total sales
+
+📦 Product Performance
+🔝 Top-Performing Products
+Product	Sales Revenue
+Paseo	$33,047,484 (Top Seller)
+VTT	$21.1M
+Velo	$18.5M
+Amarilla	$17.7M
+🌍 Geographic Distribution
+
+The analysis tracks performance across five key international markets:
+
+Leading Country: Canada — $25,524,295
+
+Other Key Markets:
+
+France — $25M
+
+USA — $25M
+
+Germany — $24M
+
+Mexico — $21M
+
+Sales performance is well-distributed globally, with Canada emerging as the strongest contributor.
+
+🛠 Data Architecture & Design
+
+This repository includes the underlying logic for:
+
+ETL Pipelines
+
+Transforming raw sales data into clean, YoY-comparable datasets
+
+Visualization Logic
+
+Calculated fields for discount band analysis
+
+Monthly trend smoothing for executive reporting
+
+Metric Framework
+
+Standardized definitions for Sales, COGS, Profit, and Profit Margins
+
+📊 Business Impact
+
+This dashboard provides leadership with:
+
+A consolidated executive view of global performance
+
+Clear visibility into growth drivers and underperforming areas
+
+Actionable insights for pricing, discount, and segment strategy
+
+Faster, more confident decision-making
